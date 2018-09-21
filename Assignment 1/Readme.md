@@ -12,7 +12,8 @@ The objective of this project is to predict whether or not a variant is likely t
 
 Conflicting classifications are when two of any of the following three categories are present for one variant, two submissions of one category are not considered conflicting.
 
-..* Likely Benign or Benign
-..* VUS
-..* Likely Pathogenic or Pathogenic
+* Likely Benign or Benign
+* VUS
+* Likely Pathogenic or Pathogenic
 
+### Data Cleaning
