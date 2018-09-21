@@ -38,7 +38,7 @@ As mentioned previously, since most of the columns are categorical, we would hav
 * For other categorical columns, we use a technique called "Feature hashing" and limit the number of numerical features to 5 for each of these columns
 * As a result, we obtain a completely clean dataset of 113 columns
 * For this analysis, we test the dataset with 3 algorithms namely 
-- Logistic regression
-- Decision tree classifier
-- Random forest classifier
+  - Logistic regression
+  - Decision tree classifier
+  - Random forest classifier
 and finalise the one which gives us the most optimum result. In our case, It was random forest classifier.
