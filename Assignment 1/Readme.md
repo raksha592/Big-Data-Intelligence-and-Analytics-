@@ -33,3 +33,12 @@ The link to EDA is provided [here](https://github.com/raksha592/Big-Data-Intelli
 * We may visualize the stacked barplots which we group by class for some of the categorical variables like "SYMBOL", "CLNVC", "CHROM", etc to analyse how the data is distribulted accross conflicting and non-conflicting classifications
 
 ### Analysis
+As mentioned previously, since most of the columns are categorical, we would have to convert them into its respective numerical forms by using techniques like one hot encoding and feature hashing
+* For columns which have less than 10 categories, we one hot encode these columns
+* For other categorical columns, we use a technique called "Feature hashing" and limit the number of numerical features to 5 for each of these columns
+* As a result, we obtain a completely clean dataset of 113 columns
+* For this analysis, we test the dataset with 3 algorithms namely 
+* - Logistic regression
+* - Decision tree classifier
+* - Random forest classifier
+and finalise the one which gives us the most optimum result. In our case, It was random forest classifier.
