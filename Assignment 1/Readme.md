@@ -25,11 +25,11 @@ Conflicting classifications are when two of any of the following three categorie
 
 ### Exploratory Data Analysis
 The dataset is observed to have many columns which are categorical and have too many unique categories in each column. 
-The link to EDA is provided here[https://github.com/raksha592/Big-Data-Intelligence-and-Analytics-/blob/master/Assignment%201/Assignment%201-Part%20A-EDA.ipynb]
+The link to EDA is provided [here](https://github.com/raksha592/Big-Data-Intelligence-and-Analytics-/blob/master/Assignment%201/Assignment%201-Part%20A-EDA.ipynb)
 * For the numerical data, We observe the distributions as shown. We notice that columns like 'ORIGIN', 'CADD_PHRED', 'CADD_RAW' are likely to have outliers in the data.
 * Hence we boxplot each of those columns to understand if we have outliers. We notice that the column 'ORIGIN' has an outlier when most of the data is distributed accross a particular region.
 * We plot the count of categories for all the categorical columns having less than 30 categories to help us understand how the data is distributed accross the categorical data
-* Next, we plot a correlation heatmap of all the columns. Since most of the columns are categorical, we are observing the correlation only between the categorical columns. A more elaborate plot of the correlation is present in the Analysis[https://github.com/raksha592/Big-Data-Intelligence-and-Analytics-/blob/master/Assignment%201/Assignment%201-Part%20B-Analysis.ipynb]
+* Next, we plot a correlation heatmap of all the columns. Since most of the columns are categorical, we are observing the correlation only between the categorical columns. A more elaborate plot of the correlation is present in the [analysis](https://github.com/raksha592/Big-Data-Intelligence-and-Analytics-/blob/master/Assignment%201/Assignment%201-Part%20B-Analysis.ipynb)
 * We may visualize the stacked barplots which we group by class for some of the categorical variables like "SYMBOL", "CLNVC", "CHROM", etc to analyse how the data is distribulted accross conflicting and non-conflicting classifications
 
 ### Analysis
