@@ -41,4 +41,11 @@ As mentioned previously, since most of the columns are categorical, we would hav
   - Logistic regression
   - Decision tree classifier
   - Random forest classifier
-and finalise the one which gives us the most optimum result. In our case, It was random forest classifier.
+
+Random forest classifier gave us the most optimum results with a precision of 80%
+
+* The dependent variable in our classification problem is column "CLASS"
+* The independent variables are the differnt variants that are present in the dataset and the effect they have on the classification. The columns which were clearly not impacting the classification have been removed.
+* We also perform a gird seach on each of these algorithms by changing various hyperparameters. 
+
+The analysis is performed in this [notebook](https://github.com/raksha592/Big-Data-Intelligence-and-Analytics-/blob/master/Assignment%201/Assignment%201-Part%20B-Analysis.ipynb)
