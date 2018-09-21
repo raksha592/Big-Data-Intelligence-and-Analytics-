@@ -7,6 +7,7 @@ These variants are (usually manually) classified by clinical laboratories on a c
 * Uncertain significance 
 * Likely pathogenic 
 * Pathogenic
+
 Some of these variants have conflicting classifications between laboratories. These variants can cause confusion when clinicians or researchers try to interpret whether the variant has an impact on the disease of a given patient.
 The objective of this project is to predict whether or not a variant is likely to have a conflicting classification. Hence, this is a binary classification problem. The column class indicates if the variant has a conflicting classification. 
 
