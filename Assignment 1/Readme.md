@@ -17,7 +17,7 @@ Conflicting classifications are when two of any of the following three categorie
 * Likely Pathogenic or Pathogenic
 
 ### Data Cleaning
-The dataset consists of many columns which have nearly 99% missing data. This clearly means that these columns aren't really having a big enough impact on the classification. Hence, we drop all the columns which have more that 70% of missing data.
-The column "CLNVI" has 57% missing data. from the data dictionary, we understand that the rows which are empty are the ones in which this particular variant is not present. Hence, we fill the blank rows with an string like "No variant present".
-The columns 'SIFT','PolyPhen'and 'BLOSUM62' have nearly 61% of missing data. These are mostly scores which have been calculated using prior details which we aren't aware of. For the purpose of obtaining better results in the model, we will drop these columns rather than imputing incorrect values in the missing rows.
-The rest of the columns have less than 12% missing data. Hence, we drop all the rows to obtain a clean dataset with no missing or incorrectly imputed values.
+* The dataset consists of many columns which have nearly 99% missing data. This clearly means that these columns aren't really having a big enough impact on the classification. Hence, we drop all the columns which have more that 70% of missing data.
+* The column "CLNVI" has 57% missing data. from the data dictionary, we understand that the rows which are empty are the ones in which this particular variant is not present. Hence, we fill the blank rows with an string like "No variant present".
+* The columns 'SIFT','PolyPhen'and 'BLOSUM62' have nearly 61% of missing data. These are mostly scores which have been calculated using prior details which we aren't aware of. For the purpose of obtaining better results in the model, we will drop these columns rather than imputing incorrect values in the missing rows.
+* The rest of the columns have less than 12% missing data. Hence, we drop all the rows to obtain a clean dataset with no missing or incorrectly imputed values.
