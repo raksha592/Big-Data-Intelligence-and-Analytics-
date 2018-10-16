@@ -1,0 +1,47 @@
+{
+    "run_id": "rY5hrHhNl",
+    "start_time": 1539722312.2699974,
+    "target": null,
+    "max_models": 9,
+    "run_time": 333,
+    "scale": false,
+    "classification": false,
+    "balance": false,
+    "balance_threshold": 0.2,
+    "project": null,
+    "end_time": 1539722860.407942,
+    "execution_time": 548.1379446983337,
+    "nthreads": 1,
+    "min_mem_size": 6,
+    "analysis": 0,
+    "X": [
+        "C1",
+        "doors",
+        "persons",
+        "buying",
+        "maint",
+        "lug_boot",
+        "safety"
+    ],
+    "variables": {
+        "C1": "int",
+        "buying": "enum",
+        "maint": "enum",
+        "doors": "int",
+        "persons": "int",
+        "lug_boot": "enum",
+        "safety": "enum",
+        "class": "enum"
+    },
+    "model_execution_time": 544.5350785255432,
+    "mod_best": "GBM_grid_0_AutoML_20181016_163834_model_4",
+    "mod_best_algo": "gbm",
+    "models": [
+        "GBM_grid_0_AutoML_20181016_163834_model_4",
+        "GLM_grid_0_AutoML_20181016_163834_model_0",
+        "DRF_0_AutoML_20181016_163834",
+        "XRT_0_AutoML_20181016_163834",
+        "DeepLearning_0_AutoML_20181016_163834",
+        "StackedEnsemble_BestOfFamily_0_AutoML_20181016_163834"
+    ]
+}
