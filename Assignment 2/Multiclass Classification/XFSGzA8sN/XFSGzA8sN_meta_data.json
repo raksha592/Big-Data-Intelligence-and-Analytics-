@@ -1,0 +1,47 @@
+{
+    "run_id": "XFSGzA8sN",
+    "start_time": 1539581168.6975458,
+    "target": null,
+    "max_models": 9,
+    "run_time": 333,
+    "scale": false,
+    "classification": false,
+    "balance": false,
+    "balance_threshold": 0.2,
+    "project": null,
+    "end_time": 1539581712.8958716,
+    "execution_time": 544.1983258724213,
+    "nthreads": 1,
+    "min_mem_size": 6,
+    "analysis": 0,
+    "X": [
+        "C1",
+        "doors",
+        "persons",
+        "buying",
+        "maint",
+        "lug_boot",
+        "safety"
+    ],
+    "variables": {
+        "C1": "int",
+        "buying": "enum",
+        "maint": "enum",
+        "doors": "int",
+        "persons": "int",
+        "lug_boot": "enum",
+        "safety": "enum",
+        "class": "enum"
+    },
+    "model_execution_time": 541.4267618656158,
+    "mod_best": "GBM_grid_0_AutoML_20181015_012610_model_31",
+    "mod_best_algo": "gbm",
+    "models": [
+        "GBM_grid_0_AutoML_20181015_012610_model_31",
+        "GLM_grid_0_AutoML_20181015_012610_model_0",
+        "DRF_0_AutoML_20181015_012610",
+        "XRT_0_AutoML_20181015_012610",
+        "DeepLearning_0_AutoML_20181015_012610",
+        "StackedEnsemble_BestOfFamily_0_AutoML_20181015_012610"
+    ]
+}
